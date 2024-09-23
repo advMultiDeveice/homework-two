@@ -1,0 +1,114 @@
+.prod-holder{
+    justify-content: center;
+    align-items: center;
+    height: 1150px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    .prod1{
+        // justify-content: center;
+        // align-items: center;
+        display: flex;
+        // background-color: yellow;
+
+        height: 490px;
+        width: 600px;
+        margin: 0 auto;
+
+        .date{
+            height: 100%;
+            width: 50px;
+            background-color: white;
+            
+
+        }
+
+        .date div{
+            padding-top: 15px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 17px;
+        }
+        .inner-prod{
+            // justify-content: center;
+            // align-items: center;
+            display: flex;
+            flex-direction: column;
+            width: 600px;
+            // position: absolut;
+            background-color: gray;
+            .prod-pic{
+                background-color: yellow;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 200px;
+                width: 100%;
+                background-image: url(../assests/prod1.jpg);
+            }
+            .prod-info{
+                text-align: center;
+                font-weight: bold;
+                font-size: 20px;
+                padding: 10px;
+            }
+            .prod-info div{
+                padding-top: 10px;
+            }
+        }
+
+    }
+    .prod2{
+        // justify-content: center;
+        // align-items: center;
+        display: flex;
+        // background-color: yellow;
+
+        height: 490px;
+        width: 600px;
+        margin: 0 auto;
+        margin-top: 30px;
+        .date{
+            height: 100%;
+            width: 50px;
+            background-color: white;
+            
+
+        }
+
+        .date div{
+            padding-top: 15px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 17px;
+        }
+        .inner-prod{
+            // justify-content: center;
+            // align-items: center;
+            display: flex;
+            flex-direction: column;
+            width: 600px;
+            // position: absolut;
+            background-color: gray;
+            .prod-pic{
+                background-color: yellow;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 200px;
+                width: 100%;
+                background-image: url(../assests/prod1.jpg);
+            }
+            .prod-info{
+                text-align: center;
+                font-weight: bold;
+                font-size: 20px;
+                padding: 10px;
+            }
+            .prod-info div{
+                padding-top: 10px;
+            }
+        }
+
+    }
+}

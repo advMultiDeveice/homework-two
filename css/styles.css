@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.home-pic-holder {
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: black;
+  display: flex;
+  margin: 0 auto;
+}
+.home-pic-holder .home-pic {
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  margin: 0 auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../assests/shopping.jpg);
+  background-color: yellow;
+  position: relative;
+}
+.home-pic-holder .home-pic .home-text {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: darkgreen;
+  font-weight: bold;
+  font-size: 30px;
+}
+.home-pic-holder .home-pic .home-text-br {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: lightgreen;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.home-info-holder {
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  background-color: black;
+  display: flex;
+  margin-top: 40px;
+}
+.home-info-holder .home-info {
+  justify-content: space-evenly;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  padding-top: 10px;
+}
+.home-info-holder .home-info .info {
+  text-align: center;
+  justify-content: space-evenly;
+  height: 250px;
+  width: 200px;
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.about-p-holder {
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  height: 300px;
+  background-color: black;
+}
+.about-p-holder .about-photos {
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  height: 300px;
+  width: 100%;
+}
+.about-p-holder .about-photos .p1 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../assests/about.png);
+  height: 200px;
+  width: 300px;
+}
+.about-p-holder .about-photos .p2 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../assests/about1.jpg);
+  height: 200px;
+  width: 300px;
+  background-color: green;
+}
+.about-p-holder .about-photos .p3 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../assests/about2.jpg);
+  height: 200px;
+  width: 300px;
+  background-color: green;
+}
+
+.about-info-holder {
+  background-color: white;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.about-info-holder .about-info {
+  font-weight: bolder;
+  font-size: 22px;
+  font-style: italic;
+  text-align: center;
+  width: 600px;
+}
+
+.prod-holder {
+  justify-content: center;
+  align-items: center;
+  height: 1150px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.prod-holder .prod1 {
+  display: flex;
+  height: 490px;
+  width: 600px;
+  margin: 0 auto;
+}
+.prod-holder .prod1 .date {
+  height: 100%;
+  width: 50px;
+  background-color: white;
+}
+.prod-holder .prod1 .date div {
+  padding-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+}
+.prod-holder .prod1 .inner-prod {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  background-color: gray;
+}
+.prod-holder .prod1 .inner-prod .prod-pic {
+  background-color: yellow;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  background-image: url(../assests/prod1.jpg);
+}
+.prod-holder .prod1 .inner-prod .prod-info {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+.prod-holder .prod1 .inner-prod .prod-info div {
+  padding-top: 10px;
+}
+.prod-holder .prod2 {
+  display: flex;
+  height: 490px;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.prod-holder .prod2 .date {
+  height: 100%;
+  width: 50px;
+  background-color: white;
+}
+.prod-holder .prod2 .date div {
+  padding-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+}
+.prod-holder .prod2 .inner-prod {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  background-color: gray;
+}
+.prod-holder .prod2 .inner-prod .prod-pic {
+  background-color: yellow;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  background-image: url(../assests/prod1.jpg);
+}
+.prod-holder .prod2 .inner-prod .prod-info {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+.prod-holder .prod2 .inner-prod .prod-info div {
+  padding-top: 10px;
+}
+
+.contact {
+  height: 900px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding-top: 10px;
+}
+.contact .contact-header h1 {
+  padding-top: 50px;
+  font-size: 30px;
+  color: white;
+  text-decoration: overline;
+  justify-content: center;
+}
+.contact .contact-holder {
+  display: flex;
+  width: 700px;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.contact .contact-holder .holder {
+  height: 100%;
+  width: 700px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.contact .contact-holder .holder .nInput {
+  width: 100%;
+}
+.contact .contact-holder .holder .nInput input {
+  font-size: 20px;
+  border-style: solid;
+  background-color: lightgreen;
+  border-color: white;
+  min-width: 100%;
+  height: 100px;
+  padding-left: 10px;
+}
+.contact .contact-holder .holder .nInput ::placeholder {
+  padding: 20px;
+  color: black;
+}
+.contact .contact-holder .holder .eInput {
+  padding-top: 21px;
+  min-width: 100%;
+}
+.contact .contact-holder .holder .eInput input {
+  font-size: 20px;
+  border-style: solid;
+  background-color: lightgreen;
+  border-color: white;
+  min-width: 100%;
+  height: 100px;
+  padding-left: 10px;
+}
+.contact .contact-holder .holder .eInput ::placeholder {
+  padding: 20px;
+  color: black;
+}
+.contact .contact-holder .holder .mInput {
+  padding-top: 21px;
+  position: relative;
+  min-width: 100%;
+}
+.contact .contact-holder .holder .mInput input {
+  font-size: 20px;
+  border-style: solid;
+  background-color: lightgreen;
+  border-color: white;
+  min-width: 100%;
+  height: 100px;
+  padding-left: 10px;
+}
+.contact .contact-holder .holder .mInput ::placeholder {
+  position: absolute;
+  top: 0;
+  padding: 20px;
+  color: black;
+}
+.contact .contact-holder .holder .send {
+  margin-top: 21px;
+  width: 167px;
+  height: 60px;
+  padding-top: 12px;
+  background-color: lightgreen;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: black;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.contact .contact-holder .holder .send a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
