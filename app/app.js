@@ -1,12 +1,9 @@
 import {loadPage } from "../model/model.js";
 
-
 function changeRoute() {
 let hashTag = window.location.hash;
 let pageID = hashTag.replace('#', '');
-
     loadPage(pageID);
-
 
 }
 
